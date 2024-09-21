@@ -1,0 +1,38 @@
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+
+# Flask/Python specific
+instance/
+*.log
+*.sqlite3
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore Heroku files (if generated locally)
+Procfile.d/
+.heroku/
+
+# Environment variables (if you create .env files locally)
+.env
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore cache and model files
+__pycache__/
+*.pth
+*.h5
+*.pt
+*.ckpt
+models/
+venv1/
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
