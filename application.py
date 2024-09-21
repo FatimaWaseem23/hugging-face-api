@@ -28,7 +28,6 @@ def generate_text():
 
     input_text = data['input_text']
     try:
-        # Generate text from model
         result = model(input_text)
         return jsonify(result)
     except Exception as e:
